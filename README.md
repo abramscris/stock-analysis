@@ -35,7 +35,7 @@ On the opposite way we must look at the disadvantages of refactoring codes when 
 
 ### Applying refactoring on original code
 
-When applying the refactoring codes for this project demanded a lot of detail attention and after a few attempts the most applicable changes that came back with considerable results were change the Loop code, when stays on the same loop but get all the data in arrays.and no more swiching between worksheets.
+When applying the refactoring codes for this project demanded a lot of detail attention and after a few attempts the most applicable changes that came back with considerable results were change the Loop code, where i placed on the same loop but get all the data in arrays.And no more swiching between worksheets.
 
 #### Original Code Nested Loop
 
@@ -132,3 +132,8 @@ With the refactoring code we can clearly see the difference on the execution tim
     width="20%" height="20%">
 </kbd>
 </p>
+
+
+## Final considerations
+
+As per the analysis of this challenge it became clear that after refactoring the original VBA script, we had a clearer code also in future analysis of this code if the user tries to apply differences will make easier on readability. As per further analysis I will be checking in to avoid nested loops when not necessary, when became clear that once when we decrease the amount of code under codes, besides avoid errors on typing, we had a great increase on  execution time. Crucial for large amount of analysis.
