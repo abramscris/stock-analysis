@@ -136,4 +136,4 @@ With the refactoring code we can clearly see the difference on the execution tim
 
 ## Final considerations
 
-As per the analysis of this challenge it became clear that after refactoring the original VBA script, we had a comprehensible code also in future analysis of this code if the user tries to apply differences will make easier on readability. As per further analysis I will be checking in to avoid nested loops when not necessary, when became clear that once when we decrease the amount of code under codes, besides avoid errors on typing, we had a great increase on  execution time. Crucial for large amount of analysis.
+As per the analysis of this challenge it became clear that after refactoring the original VBA script, we had a comprehensible code also in future analysis of this code if the user tries to apply differences will make easier on readability. Furthermore I will be checking in to avoid nested loops when not necessary, when became clear that once when we decrease the amount of code under codes, besides avoid errors on typing, we had a great increase on  execution time. Crucial for large amount of analysis.
