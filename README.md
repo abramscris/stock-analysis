@@ -114,3 +114,21 @@ When applying the refactoring codes for this project demanded a lot of detail at
         
     Next i
 
+#### Execution Time
+
+With the refactoring code we can clearly see the difference on the execution time as demonstrated on the images.
+
+<p align="center">
+<kbd>
+2017
+  <img src="2017_Originalcode.png"
+    width="20%" height="20%">
+<img src="2017_Refacturedcode.png"
+    width="20%" height="20%">
+  2018
+  <img src="2018_Originalcode.png"
+    width="20%" height="20%">
+<img src="2018_Refacturedcode.png"
+    width="20%" height="20%">
+</kbd>
+</p>
