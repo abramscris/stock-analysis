@@ -35,7 +35,7 @@ On the opposite way we must look at the disadvantages of refactoring codes when 
 
 ### Applying refactoring on original code
 
-When applying the refactoring codes for this project demanded a lot of detail attention and after a few attempts the most applicable changes that came back with considerable results were change the Loop code, where i placed on the same loop but get all the data in arrays.And no more swiching between worksheets.
+When applying the refactoring codes for this project demanded a lot of detail attention and after a few attempts the most applicable changes that came back with considerable results were change the Loop code, where I placed on the same loop but get all the data in arrays.And no more swiching between worksheets.
 
 #### Original Code Nested Loop
 
