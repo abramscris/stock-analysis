@@ -10,5 +10,13 @@ As requested by Steve the purpose of this analysis is to identify in a group 12 
 
 ### Analysis os Green Stocks between 2017 and 2018
 
-![AllStocks_2017.png](https://github.com/abramscris/stock-analysis/blob/main/AllStocks_2017.png)
-![AllStocks2018.png](https://github.com/abramscris/stock-analysis/blob/main/AllStocks2018.png)
+<p align="center">
+<kbd>
+  <img src="AllStocks2018.png"
+    width="40%" height="40%">
+<img src="AllStocks_2017.png"
+    width="40%" height="40%">
+</kbd>
+</p>
+
+
