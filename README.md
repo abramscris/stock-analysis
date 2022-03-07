@@ -35,11 +35,11 @@ On the opposite way we must look at the disadvantages of refactoring codes when 
 
 ### Applying refactoring on original code
 
-When applying the refactoring codes for this project demanded a lot of detail attention and after a few attempts the most applicable changes that came back with considerable results were:
+When applying the refactoring codes for this project demanded a lot of detail attention and after a few attempts the most applicable changes that came back with considerable results were change the Loop code, when stays on the same loop but get all the data in arrays.and no more swiching between worksheets.
 
 #### Original Code Nested Loop
 
-'5a)Loop through rows.
+                '5a)Loop through rows.
             Worksheets(yearValue).Activate
             For j = 2 To RowCount
             
@@ -66,7 +66,7 @@ When applying the refactoring codes for this project demanded a lot of detail at
 
 #### Refactored Code
 
-'5b) Create three output arrays.
+      '5b) Create three output arrays.
     Dim tickerVolumes(12) As Long
     Dim tickerStartingPrices(12) As Single
     Dim tickerEndingPrices(12) As Single
@@ -90,6 +90,8 @@ When applying the refactoring codes for this project demanded a lot of detail at
         If Cells(i - 1, 2).Value <> tickers(tickerIndex) And Cells(i, 2).Value = tickers(tickerIndex) Then
             tickerStartingPrices(tickerIndex) = Cells(i, 7).Value
         End If
+        
+  
         
         '7c) Check if the current row is the last row with the selected ticker.
         If Cells(i + 1, 2).Value <> tickers(tickerIndex) And Cells(i, 2).Value = tickers(tickerIndex) Then
